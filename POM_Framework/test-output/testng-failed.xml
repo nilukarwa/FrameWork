@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.accenture.utilities.MyListener"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.accenture.tests.MyListenerTest">
+        <methods>
+          <include name="fail"/>
+        </methods>
+      </class> <!-- com.accenture.tests.MyListenerTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
